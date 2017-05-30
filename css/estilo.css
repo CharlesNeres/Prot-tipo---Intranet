@@ -1,0 +1,91 @@
+/*reset*/
+body, html {
+  height: 100%;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
+/*inicio menu superior*/
+.menusuperior{
+  width: 90%;
+  height: 5%;
+  background-color: green;
+  float: right;
+  padding-top: 0.7%;
+  box-sizing: border-box;
+  border-bottom: 3px solid yellow;
+  text-align: center;
+}
+
+.title{
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+.icone{
+  color: #fff;
+  float: right;
+  padding-right: 2%;
+
+}
+
+table{
+  border: 1px solid black;
+}
+
+thead{
+  background-color: rgb(143, 79, 56); 
+}
+
+/*inicio menu lateral*/
+.menulateral{
+  width: 10%;
+  height: 100%;
+  background-color:black;
+  float:left;
+  text-align: center; /*centralizando menulateral*/
+}
+
+.logo{
+  width: 100%;
+  height: 5%;
+  background-color: red;
+  padding-top: 5%;
+  box-sizing: border-box;
+  border-bottom: 3px solid yellow;
+}
+.sefazlogo{
+  float: left;
+  margin-left: 7%;
+  margin-top: 3%;
+  color:#fff;
+}
+.hamburguer{
+  float: right;
+  margin-right: 7%;
+  color: #fff;
+}
+
+.menulateral ul {
+  display: inline-block;
+  margin-top: 10%;
+}
+
+.menulateral ul li {
+  color:#fff;
+  list-style: none;
+  margin-top: 15%;
+}
+
+.principal{
+  width: 90%;
+  height: 95%;
+  float: right;
+  background-color: pink;
+}
